@@ -26,7 +26,7 @@ class NcutSegmenter:
                     magnitude2 = np.sqrt(v2[0] * v2[0] + v2[1] * v2[1] + v2[2] * v2[2])
                     ang = np.arccos(np.dot(v1, v2) / (magnitude1 * magnitude2))
 
-                    A[i][j] = max(self.values[i][7], self.values[j][7]) * ang * A[i][j]
+                    A[i][j] = max(self.values[i][7], self.values[j][7]) * A[i][j]
 
         # init SpectralClustering
         sc = SpectralClustering(4, affinity='precomputed', n_init=10, assign_labels = 'discretize')
