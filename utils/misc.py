@@ -12,20 +12,24 @@ class Utils:
         nb_mask = values[:, 6] == 0
 
         b_av = np.average(values[b_mask, 7])
+        b_std = np.std(values[b_mask, 7])
         b_max = values[b_mask, 7].max()
         b_min = values[b_mask, 7].min()
 
         nb_av = np.average(values[nb_mask, 7])
+        nb_std = np.std(values[nb_mask, 7])
         nb_max = values[nb_mask, 7].max()
         nb_min = values[nb_mask, 7].min()
 
         print("prediction distribution for boundary pts:")
         print("average: ", b_av)
+        print("std_dev: ", b_std)
         print("max: ", b_max)
         print("min: ", b_min)
         print("")
         print("prediction distribution for non-boundary pts:")
         print("average: ", nb_av)
+        print("std_dev: ", nb_std)
         print("max: ", nb_max)
         print("min: ", nb_min)
         print("")

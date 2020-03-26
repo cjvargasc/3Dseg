@@ -53,7 +53,7 @@ class PointCloudIO:
     @staticmethod
     def show_segments(values, labels):
 
-        random.seed(123)
+        random.seed(1233)
 
         xyz = np.zeros((values.shape[0], 3))
         xyz[:, 0] = np.reshape(values[:, 0], -1)
@@ -71,8 +71,8 @@ class PointCloudIO:
         for segment in np.unique(labels):
 
             if segment == -1:  # boundaries
-                random_r = 1
-                random_g = 0
+                random_r = 0.5
+                random_g = 0.5
                 random_b = 0
             else:
                 random_r = random.random()

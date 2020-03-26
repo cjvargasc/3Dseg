@@ -7,7 +7,7 @@ from seg.ex2 import NcutSegmenter
 
 def exercise1():
     pts_file = "example.pts"
-    selected_thresh = 0.994
+    selected_thresh = 0.994408
 
     k = 5
 
@@ -57,7 +57,15 @@ def exercise2():
     PointCloudIO.show_segments(points, segments)
 
     print("Ncuts: boundary probabilities weighted segmentation")
-    segments = seg.segment_func1()
+    segments = seg.segment_func2()
+
+    print(np.unique(segments))
+    print("Segments found: ", np.unique(segments).shape[0])
+
+    PointCloudIO.show_segments(points, segments)
+
+    print("Ncuts: distance")
+    segments = seg.customNcuts()
 
     print(np.unique(segments))
     print("Segments found: ", np.unique(segments).shape[0])
