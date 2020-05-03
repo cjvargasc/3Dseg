@@ -10,7 +10,9 @@
 ## Some results
 
 - Visualization:
-<img src="https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png" width="25%">
+
+<img src="https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_057.png">
 
 - Segmentation:
-<img src="https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_057.png">
+
+<img src="https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png" width="25%">
