@@ -8,5 +8,5 @@
 * Matplotlib
 
 ## Some results
-![Visualization](https://github.com/cjvargasc/3Dseg/imgs/Selection_028.png)#
-![Segmentation](https://github.com/cjvargasc/3Dseg/imgs/Selection_057.png)
+![Visualization](https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png)#
+![Segmentation](https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_057.png)
