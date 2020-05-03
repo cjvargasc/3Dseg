@@ -8,5 +8,5 @@
 * Matplotlib
 
 ## Some results
-![Visualization](https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png)#
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png" width="400" height="400" />
 ![Segmentation](https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_057.png)
