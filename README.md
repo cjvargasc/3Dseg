@@ -8,5 +8,6 @@
 * Matplotlib
 
 ## Some results
+<img src="https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png" width="40%">
 ![Visualization](https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png =150x150)
 ![Segmentation](https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_057.png)
