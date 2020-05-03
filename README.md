@@ -8,7 +8,9 @@
 * Matplotlib
 
 ## Some results
-Visualization:
+
+- Visualization:
 <img src="https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_028.png" width="40%">
-Segmentation:
+
+- Segmentation:
 ![Segmentation](https://github.com/cjvargasc/3Dseg/blob/master/imgs/Selection_057.png)
